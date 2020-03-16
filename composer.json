@@ -1,6 +1,6 @@
 {
-  "name": "fond-of-spryker/creditmemo-api",
-  "description": "Creditmemo Api",
+  "name": "fond-of-spryker/credit-memo-api",
+  "description": "Credit Memo Api",
   "license": "MIT",
   "authors": [
     {
@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "fond-of-spryker/creditmemo": "*"
+    "fond-of-spryker/creditmemo": "dev-feature/paypal-refund"
   },
   "require-dev": {
     "spryker/code-sniffer": "^0.11",
