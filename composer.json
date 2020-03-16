@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "fond-of-spryker/creditmemo": "dev-feature/paypal-refund"
+    "fond-of-spryker/credit-memo": "dev-feature/paypal-refund"
   },
   "require-dev": {
     "spryker/code-sniffer": "^0.11",
