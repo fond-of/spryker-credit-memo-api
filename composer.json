@@ -18,7 +18,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "fond-of-spryker/creditmemo": "*"
+    "fond-of-spryker/credit-memo": "*"
   },
   "require-dev": {
     "spryker/code-sniffer": "^0.11",
