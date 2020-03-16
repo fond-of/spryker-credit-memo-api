@@ -1,4 +1,4 @@
-namespace: fond-of-spryker/creditmemo-api
+namespace: fond-of-spryker/credit-memo-api
 
 suites:
   unit:
@@ -19,3 +19,7 @@ coverage:
   enabled: true
   include:
     - src/*.php
+
+modules:
+  enabled:
+    - \FondOfCodeception\Module\Spryker
