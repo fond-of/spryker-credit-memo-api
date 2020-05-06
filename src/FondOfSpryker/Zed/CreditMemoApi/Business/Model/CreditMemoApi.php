@@ -53,7 +53,7 @@ class CreditMemoApi implements CreditMemoApiInterface
      */
     public function add(ApiDataTransfer $apiDataTransfer): ApiItemTransfer
     {
-        $data = (array)$apiDataTransfer->getData();
+        $data = $apiDataTransfer->getData();
 
         $creditMemoTransfer = $this->transferMapper->toTransfer($data);
 
